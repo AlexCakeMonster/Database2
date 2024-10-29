@@ -48,7 +48,7 @@ values (1, '2019-08-10', '2019-09-01')
 	e.Code as КодСотрудника1
 	,v.DateBegin as НачалоОтпуска
 	,v.DateEnd as КонецОтпуска
-	,em.Code as КодСотрудника1
+	,em.Code as КодСотрудника2
 	,vc.DateBegin as НачалоОтпуска
 	,vc.DateEnd as КонецОтпуска
   from dbo.Vacation as v
